@@ -8,6 +8,12 @@ function imprimirSumaNumeros() {
     // Imprime la suma de los números del 1 al 10
     // Pista: usa un acumulador
     // Tu código:
+    acumulador = 0;
+
+    for (let i = 1; i <= 10; i++) {
+      acumulador = acumulador + i
+    }
+    return acumulador;
 }
 
 function encuentraPares(array){
@@ -26,6 +32,13 @@ function sumaArray(array){
   // Devuelve el resultado de sumar todos los elementos
   // de un arreglo de enteros dado
   // Tu código:
+
+  sumadenumeros = 0
+
+  for (let i = 0; i < array.length; i++) {
+    sumadenumeros = sumadenumeros + array[i]
+  }
+  return sumadenumeros;
 }
 
 function numeroDigitos(num){
